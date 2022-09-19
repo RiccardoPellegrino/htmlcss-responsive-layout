@@ -22,7 +22,7 @@
 body {
     background-color: var(--white);
     font-family: 'PT Sans', sans-serif;
-    
+
 }
 
 .container {
@@ -32,6 +32,12 @@ body {
 
 .flex {
     display: flex;
+
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
 }
 
 .justy-between {
@@ -40,6 +46,19 @@ body {
 
 .align-center {
     align-items: center;
+}
+
+.testo-blue {
+    color: var(--blue);
+}
+
+.btn {
+    background-color: var(--blue);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 50px;
+
 }
 
 /* HEADER */
@@ -74,14 +93,39 @@ header li {
     background-color: var(--purple);
 }
 
-#intro {
+.padding-lr-rem {
     padding: 0 2rem;
+}
+
+.mrg-top-section {
+    margin-top: 40px;
+}
+
+.mrg-top-card {
+    margin-top: 30px;
 }
 
 .card {
     background-color: var(--light-blue);
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    border-radius: 10px;
+}
+
+main img {
+    width: 100%;
+
+}
+
+#intro i {
+    color: var(--blue);
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+
+#intro p{
+    padding-bottom: 20px;
 }
 
 /* FOOTER*/
@@ -91,22 +135,25 @@ footer {
 }
 
 /* RESPONSIVE */
-@media screen and (min-width:768px){
-    .container{
+@media screen and (min-width:768px) {
+    .container {
         max-width: 750px;
     }
-    #intro .cards{
+
+    #intro .cards {
         display: flex;
         flex-flow: row wrap;
         margin-left: -0.75rem;
         margin-right: -0.75rem;
     }
-    #intro .card{
+
+    #intro .card {
         margin-left: 0.75rem;
         margin-right: 0.75rem;
         width: calc(33.33% - 1.5rem);
     }
-    #intro .card:first-child{
+
+    #intro .card:first-child {
         width: calc(66.66% - 1.5rem);
     }
 }
