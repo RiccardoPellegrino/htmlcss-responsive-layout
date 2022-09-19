@@ -22,7 +22,7 @@
 body {
     background-color: var(--white);
     font-family: 'PT Sans', sans-serif;
-    font-size: 16px;
+    
 }
 
 .container {
@@ -48,6 +48,9 @@ header {
     background-color: var(--blue);
     color: var(--white);
     padding: 1rem 2rem;
+    margin-bottom: 50px;
+    position: sticky;
+    top: 0;
 }
 
 header a {
@@ -107,3 +110,5 @@ footer {
         width: calc(66.66% - 1.5rem);
     }
 }
+
+/* container per 992 intorno ai 950 */
