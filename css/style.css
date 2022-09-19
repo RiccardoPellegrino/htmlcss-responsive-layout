@@ -1,0 +1,109 @@
+:root {
+    --white: #ffffff;
+    --light-blue: #b5ddff;
+    --black: #111111;
+    --blue: #0084fd;
+    --purple: #9792e4;
+    --yellow: #fdc15f;
+    --dark-greay: #333333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug {
+    border: 1px solid black;
+    min-height: 50px;
+}
+
+body {
+    background-color: var(--white);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.justy-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* HEADER */
+
+header {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 1rem 2rem;
+}
+
+header a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.menu {
+    display: none;
+}
+
+header li {
+    list-style-type: none;
+}
+
+/* MAIN */
+
+#planning,
+#features,
+#get-started {
+    background-color: var(--purple);
+}
+
+#intro {
+    padding: 0 2rem;
+}
+
+.card {
+    background-color: var(--light-blue);
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+/* FOOTER*/
+
+footer {
+    background-color: var(--dark-greay);
+}
+
+/* RESPONSIVE */
+@media screen and (min-width:768px){
+    .container{
+        max-width: 750px;
+    }
+    #intro .cards{
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: -0.75rem;
+        margin-right: -0.75rem;
+    }
+    #intro .card{
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+        width: calc(33.33% - 1.5rem);
+    }
+    #intro .card:first-child{
+        width: calc(66.66% - 1.5rem);
+    }
+}
