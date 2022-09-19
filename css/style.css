@@ -118,7 +118,7 @@ main img {
 
 }
 
-#intro i:not(:first-child) {
+#intro i{
     color: var(--blue);
     padding-bottom: 20px;
     font-size: 50px;
@@ -159,3 +159,10 @@ footer {
 }
 
 /* container per 992 intorno ai 950 */
+@media screen and (min-width:992px) {
+
+}
+/* container per 1200 intorno ai 1150 */
+@media screen and (min-width:1200px) {
+ 
+}
