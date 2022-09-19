@@ -118,7 +118,7 @@ main img {
 
 }
 
-#intro i {
+#intro i:not(:first-child) {
     color: var(--blue);
     padding-bottom: 20px;
     font-size: 50px;
