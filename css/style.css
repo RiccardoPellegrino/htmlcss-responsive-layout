@@ -73,6 +73,7 @@ body {
     text-decoration: none;
     border-radius: 20px;
     padding: 10px 50px;
+    width: 80%;
     
 }
 
@@ -131,6 +132,7 @@ header li {
 
 #intro img {
     width: 100%;
+    display: block;
 
 }
 #intro i {
@@ -434,14 +436,7 @@ footer {
     #intro .card:first-child {
         width: calc(66.66% - 1.5rem);
     }
-}
 
-/* container per 992 intorno ai 950 */
-@media screen and (min-width:992px) {
-    .container {
-        max-width: 950px;
-        
-    }
     #img-persona-1{
         float: left;
     }
@@ -455,7 +450,18 @@ footer {
         text-align: left;
         margin-left: 200px;
     }
+    
+
+/* container per 992 intorno ai 950 */
+@media screen and (min-width:992px) {
+    .container {
+        max-width: 992px;
+    }
 }
 
 /* container per 1200 intorno ai 1150 */
-@media screen and (min-width:1200px) {}
+@media screen and (min-width:1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
