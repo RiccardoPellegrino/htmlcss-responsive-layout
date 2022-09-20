@@ -82,7 +82,16 @@ body {
     width: 80%;
 
 }
-
+.btn-bianco {
+    background-color: var(--white);
+    color: var(--black);
+    text-align: center;
+    width: 50%;
+    border-radius: 40px;
+    font-size: 1.1em;
+    padding: 0.2em 0.8em;
+    margin: 1em auto;
+}
 /* HEADER */
 
 header {
