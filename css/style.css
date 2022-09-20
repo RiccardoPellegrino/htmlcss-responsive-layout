@@ -205,8 +205,8 @@ header li {
 #testimonials h2 {
     color: var(--purple);
     font-size: 2em;
-    margin-top: 0.4em;
-    margin-bottom: 0.75em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
 }
 
 #testimonials p {
@@ -219,7 +219,7 @@ header li {
     color: var(--white);
     padding: 3em 1.5em;
     border-radius: 1.5em;
-    margin-bottom: 4em;
+    margin-bottom: 2em;
 
 }
 
@@ -257,7 +257,7 @@ header li {
 }
 
 .text p {
-    margin: 1.5em 1.5em;
+    margin: 1.5em 0em;
 
 }
 
@@ -304,7 +304,7 @@ header li {
     border-radius: 20px;
     font-size: 1.2em;
     padding: 0.5em;
-    margin-top:0.5em;
+    margin-top:1.5em;
 }
 #features .carta a {
     text-decoration: none;
@@ -437,7 +437,25 @@ footer {
 }
 
 /* container per 992 intorno ai 950 */
-@media screen and (min-width:992px) {}
+@media screen and (min-width:992px) {
+    .container {
+        max-width: 950px;
+        
+    }
+    #img-persona-1{
+        float: left;
+    }
+    #img-persona-2{
+        float: left;
+    }
+    #img-persona-3{
+        float: left;
+    }
+    #prova {
+        text-align: left;
+        margin-left: 200px;
+    }
+}
 
 /* container per 1200 intorno ai 1150 */
 @media screen and (min-width:1200px) {}
