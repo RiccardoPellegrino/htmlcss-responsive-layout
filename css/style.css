@@ -102,6 +102,12 @@ header a {
 
 .menu {
     display: none;
+    
+}
+
+.menu li{
+    display: inline-block;
+    padding-right: 20px;
 }
 
 header li {
@@ -540,13 +546,24 @@ footer {
 /* container per 992 intorno ai 950 */
 @media screen and (min-width:992px) {
     .container {
-        max-width: 992px;
+        max-width: 950px;
     }
+
+    #features .carta {
+        width: calc(30%);
+    }
+
 }
 
 /* container per 1200 intorno ai 1150 */
 @media screen and (min-width:1200px) {
     .container {
         max-width: 1140px;
+    }
+    .menu{
+        display: block;
+    }
+    #none{
+        display: none;
     }
 }
