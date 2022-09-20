@@ -151,7 +151,8 @@ header li {
 #intro i {
     color: var(--blue);
     padding-bottom: 20px;
-    font-size: 50px;
+    font-size: 70px;
+    border: 0;
 }
 
 #intro p {
@@ -175,10 +176,10 @@ header li {
     padding-top: 30px;
 }
 
-#planning h1 {
+#planning h2 {
     color: var(--white);
-    padding-top: 2rem;
-    font-size: 50px;
+    padding-top: 4rem;
+    font-size: 40px;
 }
 
 .card-long {
