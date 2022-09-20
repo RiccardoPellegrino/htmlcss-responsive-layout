@@ -548,6 +548,12 @@ footer {
     .container {
         max-width: 950px;
     }
+    .menu{
+        display: block;
+    }
+    #none{
+        display: none;
+    }
 
     #features .carta {
         width: calc(30%);
@@ -560,10 +566,5 @@ footer {
     .container {
         max-width: 1140px;
     }
-    .menu{
-        display: block;
-    }
-    #none{
-        display: none;
-    }
+    
 }
