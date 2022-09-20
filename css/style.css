@@ -363,6 +363,41 @@ header li {
     color:white;
     text-decoration: none;
 }
+
+/*Sezione 6 */
+
+#get-started .container h3{
+    font-size: 2em;
+    margin: 1em 0;
+}
+#get-started .container{
+    text-align: center;
+    color:var(--white);
+    padding: 2em 0;
+
+}
+#get-started .container h1{
+    font-size: 5em;
+    margin:0.8em 0;
+}
+.btn-white{
+    background-color: var(--white);
+    color:var(--purple);
+    text-align: center;
+    width: 50%;
+    border-radius: 20px;
+    font-size: 1.2em;
+    padding:0.5em;
+    margin: 1em auto;
+}
+#get-started .container .btn-white a {
+    color:var(--purple);
+    text-decoration: none;
+}
+#get-started a{
+    color:var(--white);
+}
+
 /* footer */
 footer {
     text-align: center;
