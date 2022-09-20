@@ -166,14 +166,17 @@ header li {
 
 .card-long {
     margin-top: 30px;
-    border-radius: 20px;
+    border-radius: 80px;
     background-color: var(--white);
 
 }
-
+#paragrafo {
+    padding-bottom: 4em;
+}
 #paragrafo p {
     color: var(--black);
     text-align: center;
+    line-height: 2em;
 }
 
 #paragrafo h1 {
