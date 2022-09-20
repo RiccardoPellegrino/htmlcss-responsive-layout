@@ -73,7 +73,7 @@ body {
     text-decoration: none;
     border-radius: 20px;
     padding: 10px 50px;
-
+    
 }
 
 /* HEADER */
@@ -261,6 +261,51 @@ header li {
     margin: 1.5em 0;
 }
 
+/* sezione 4 */
+
+#features .container{
+    padding: 2em 0;
+}
+#features .container h2{
+    color:var(--white);
+    font-size:4em;
+    margin-bottom: 1.5em;
+    margin-top:1.5em;
+}
+#features .carta{
+    background-color: var(--white);
+    color: var(--purple);
+    padding: 1.5em;
+    border-radius: 1.5em;
+    margin-bottom: 2em;
+}
+#features .carta h2{
+    font-size: 2.5em;
+    color:var(--purple);
+    text-align: left;
+    margin-top:0.5em;
+}
+#features .carta h3{
+    font-size: 1.5em;
+    margin-bottom:0.5em;
+}
+#features .carta p {
+    color:var(--black);
+    margin-bottom:0.5em;
+}
+#features .carta .btn-purple{
+    background-color: var(--purple);
+    text-align: center;
+    width: 50%;
+    border-radius: 20px;
+    font-size: 1.2em;
+    padding: 0.5em;
+    margin-top:0.5em;
+}
+#features .carta a {
+    text-decoration: none;
+    color:var(--white);
+}
 
 /* footer */
 footer {
