@@ -72,6 +72,9 @@ body {
 .testo-giallo {
     color: var(--yellow);
 }
+.align-items-center{
+    align-items: center;
+}
 
 .btn {
     background-color: var(--blue);
@@ -82,6 +85,7 @@ body {
     width: 80%;
 
 }
+
 .btn-bianco {
     background-color: var(--white);
     color: var(--black);
@@ -92,6 +96,7 @@ body {
     padding: 0.2em 0.8em;
     margin: 1em auto;
 }
+
 /* HEADER */
 
 header {
@@ -111,10 +116,10 @@ header a {
 
 .menu {
     display: none;
-    
+
 }
 
-.menu li{
+.menu li {
     display: inline-block;
     padding-right: 20px;
 }
@@ -144,12 +149,15 @@ header li {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     background-color: var(--light-blue);
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
     padding: 1.5rem 1.5rem 0 1.5rem;
     border-radius: 10px;
 }
+
 
 #intro img {
     width: 100%;
@@ -465,6 +473,10 @@ footer {
     .container {
         max-width: 750px;
     }
+    /* .card{
+        display: flex;
+        flex-direction: column;
+    } */
 
     #intro .cards {
         display: flex;
@@ -554,14 +566,16 @@ footer {
 }
 
 /* container per 992 intorno ai 950 */
-@media screen and (min-width:992px) {
+@media screen and (min-width:1200px) {
     .container {
-        max-width: 950px;
+        max-width: 1140px;
     }
-    .menu{
+
+    .menu {
         display: block;
     }
-    #none{
+
+    #none {
         display: none;
     }
 
@@ -569,12 +583,27 @@ footer {
         width: calc(30%);
     }
 
+    .carta01 {
+        display: flex;
+        flex-flow: column;
+        display: block;
+    }
+    .card {
+        display: flex;
+        flex-direction: row;
+    }
+
 }
 
 /* container per 1200 intorno ai 1150 */
-@media screen and (min-width:1200px) {
+/* @media screen and (min-width:1200px) {
     .container {
         max-width: 1140px;
     }
-    
-}
+
+    .card {
+        display: flex;
+        flex-direction: row;
+    }
+
+} */
