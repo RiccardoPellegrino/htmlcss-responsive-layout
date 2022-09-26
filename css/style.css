@@ -72,7 +72,8 @@ body {
 .testo-giallo {
     color: var(--yellow);
 }
-.align-items-center{
+
+.align-items-center {
     align-items: center;
 }
 
@@ -473,10 +474,6 @@ footer {
     .container {
         max-width: 750px;
     }
-    /* .card{
-        display: flex;
-        flex-direction: column;
-    } */
 
     #intro .cards {
         display: flex;
@@ -527,7 +524,7 @@ footer {
     }
 
     #features .container h2:first-child {
-        text-align: center;
+        text-align: start;
         font-size: 50px;
     }
 
@@ -563,6 +560,7 @@ footer {
         margin-top: 1.5em;
         margin-bottom: 0.5em;
     }
+   
 }
 
 /* container per 992 intorno ai 950 */
@@ -583,27 +581,36 @@ footer {
         width: calc(30%);
     }
 
-    .carta01 {
-        display: flex;
-        flex-flow: column;
-        display: block;
-    }
     .card {
         display: flex;
         flex-direction: row;
     }
-
-}
-
-/* container per 1200 intorno ai 1150 */
-/* @media screen and (min-width:1200px) {
-    .container {
+    #planning{
+        display: flex;
+        justify-content: space-between;
+       
+    }
+    .container-pla{
+        display: flex;
+        justify-content: space-between;
         max-width: 1140px;
+        margin: 0 auto;
     }
-
-    .card {
-        display: flex;
-        flex-direction: row;
+    #paragrafo{
+        width: 48%;
+        margin-top: 300px;
     }
-
-} */
+    #paragrafo img{
+        margin: 0 auto;
+    }
+    #provetta{
+        width: 48%;
+    }
+    #provetta p{
+        margin-top: 130px;
+        padding-right: 20px;
+    }
+    #provetta h2{
+        margin-top: 100px;
+    }
+}
